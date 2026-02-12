@@ -141,7 +141,7 @@
         class="grid grid-cols-1 lg:grid-cols-2 container mx-auto gap-10 lg:gap-[100px] mt-20 bg-linear-to-r from-[#FF8938] to-[#FF0000] rounded-[10px] text-white p-6 lg:p-[90px]">
 
         <!-- Left Side -->
-        <div class="space-y-6 flex flex-col items-start my-auto">
+        <div class="space-y-6 flex flex-col items-start my-auto relative">
             <h2 class="text-[2.81rem] font-extrabold">Meet Our Super <br> Clients</h2>
 
             <p class="font-medium">We are proud to have a diverse and loyal client base that appreciates the quality and
@@ -154,6 +154,7 @@
                     Show All
                 </span>
             </button>
+            <img class="absolute -bottom-25 right-0 max-w-[500px] w-auto" src="./images/bg_cup.png" alt="">
         </div>
 
         <!-- Right Side -->
@@ -255,6 +256,56 @@
             </div>
         </div>
     </section>
+
+    <!-- --------------------------------------- Footer ------------------------------------------------------- -->
+    <footer class="bg-linear-to-r from-[#FF0000]/10 to-[#FF8938]/10   py-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div>
+                    <h3 class="text-[1.25rem] font-bold mb-4">The Tea House</h3>
+                    <p class="text-[#777777]">The Tea House is a premier destination for tea lovers, offering a wide selection of premium teas and exceptional service in a cozy, welcoming atmosphere.</p>
+                </div>
+                <div>
+                    <h3 class="text-[1.25rem] font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-[#777777] hover:text-black">Home</a></li>
+                        <li><a href="#" class="text-[#777777] hover:text-black">About Us</a></li>
+                        <li><a href="#" class="text-[#777777] hover:text-black">Menu</a></li>
+                        <li><a href="#" class="text-[#777777] hover:text-black">News & Events</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-[1.25rem] font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li><p class="text-[#000000]">123 Tea Street, Tea City, TC 12345</p></li>
+                        <li><p class="text-[#000000]">+1 (555) 123-4568</p></li>
+                        <li><p class="text-[#000000]">info@theteahouse.com</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-[1.25rem] font-bold mb-4">Newsletter</h3>
+                    <form action="#" method="post" class="space-y-2">
+                        <input type="email" placeholder="Your Email" required
+                            class="w-full p-2 border-b mb-4 focus:outline-none focus:ring focus:ring-blue-500">
+                        <button type="submit"
+                            class="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-800 transition duration-300">
+                            Subscribe
+                        </button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-3 mt-8 pt-6 text-center">
+                &copy; 2026 The Tea House. All rights reserved.
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
